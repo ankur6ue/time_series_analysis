@@ -54,7 +54,7 @@ optimizer = optim.Adam(model4.parameters(), lr=0.001)
 # I tried decreasing the learning rate every 100 epochs - dividing by 2 (gamma = 0.5), 10 (gamma = 0.1) etc., but
 # it didn't make a difference in my experiments.
 scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=100, gamma=1)
-num_batches = 200
+num_batches = 400
 batch_num = 1
 for batch in batch_gen:
     if batch_num > num_batches:

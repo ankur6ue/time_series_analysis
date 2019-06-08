@@ -1,3 +1,6 @@
 #Directories
-/data/*
+/data/*/*.pth
+/data/*/*.txt
+/data/*/*.npy
+/data/Electricity/electricity.csv
 *__pycache__*

@@ -1,5 +1,3 @@
-# code taken from: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
-
 from pandas import read_csv
 import pandas
 from datetime import datetime

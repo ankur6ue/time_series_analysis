@@ -55,19 +55,20 @@ if example == 'NSDQ100':
     dataset = NSDQ100Dataset(csv_file=cfg['data_file'], dev=device, ctx_win_len=cfg['ctx_win_len'],
                              col_names=['NDX'])
 
-# The config parameters for the 3 models
+# The config parameters for the 3 models [covariates, num_epochs] for the pollution dataset
 cov_epochs = [[2, 50], [9, 50], [9, 100]]
-#cov_epochs = [[3, 50], [12, 50]]
-_models = []
+# list of models and configs that we'll be loading
+models = []
 cfgs = []
 # create three separate models/utils corresponding to the three configs
 for cov, epoch in cov_epochs:
     # file prefix for each config file
     file_prefix = "{0}\\model_covariates-{1}_epochs{2}".format(example, cov, epoch)
+    # Load the pre-trained model and config corresponding to the file prefix
     model, cfg = load_model(file_prefix)
     model.eval()
     model.to(device)
-    _models.append(model)
+    models.append(model)
     cfgs.append(cfg)
 
 # The configs only differ in the number of covariates and epochs. Other parameters are the same
@@ -90,10 +91,10 @@ criterion = torch.nn.MSELoss()
 test_dataloader_iter = iter(test_dataloader)
 colors = ['g', 'b', 'y']
 # errors for different sample windows for each of the 3 models
-rmse = []
-mae = []
-nd = []
-nrmse = []
+rmse = [] # Root Mean Square
+mae = [] # Mean Average Error
+nd = [] # Normalized Deviation
+nrmse = [] # Normalized RMSE
 legends = ['target series']
 for i in range(0,len(cov_epochs)):
     rmse.append([])
@@ -103,11 +104,16 @@ for i in range(0,len(cov_epochs)):
     legends.append('num covariates: {0}, num epochs: {1}'.format(cov_epochs[i][0], cov_epochs[i][1]))
 
 handles = []
-for i in range(0, 10):
+num_trials = 10
+for i in range(0, num_trials):
     test_batch = next(test_dataloader_iter)
+    # A batch is dimensions B x T x D, B = 1 for testing, T: context window length, and D = num_time_indices (generally
+    # 1 for the relative age) + num of target time series + num of covariates
+    # We are only interested in the target for now, so ignore the rest
     _, target, _ = utils.split_batch(test_batch)
     targets = target[0, :, :].detach().cpu().numpy()
-    # plot the target series
+    # plot the target series. 0 selects the first target series in this batch. The Pollution dataset only has one
+    # target series (the PM2.5 index), the other datasets may have more than one.
     target = targets[:, 0]
     plt.figure()
     plt.title('Solid line: conditioning window. Dash line: prediction window')
@@ -119,9 +125,9 @@ for i in range(0, 10):
     handle, = plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
     handles.append(handle)
     # Run multiple models on the same data
-    for k in np.arange(0, len(_models)):
+    for k in np.arange(0, len(models)):
         cfg = cfgs[k]
-        model = _models[k]
+        model = models[k]
         num_covariates = cfg['num_covariates']
         num_time_idx = cfg['num_time_idx']
         num_targets = cfg['num_targets']
@@ -130,11 +136,16 @@ for i in range(0, 10):
         batch_size = cfg['batch_size']
         utils = TSUtils(device, cfg)
         with torch.no_grad():
+            # split the batch into input, target and covariates
             input, target, covariates = utils.split_batch(test_batch)
-            # input in the conditioning range:
+            # input in the conditioning window. For the prediction window, model output will be conditioned on the
+            # model output for the previous step
             input_cond = input[:, 0:cond_win_len, :]
+            # Scale the input and oovariates so they are 0 mean and range = 1.
             input_cond, covariates = utils.scale(input_cond, covariates)
+            # Run the forward pass
             pred = model(input_cond, covariates, future=pred_win_len)
+            # scale model output and target to the original data scale.
             pred = utils.invert_scale(pred)
             # calculate loss only for the prediction window
             pred_ = pred[:, cond_win_len:cond_win_len + pred_win_len, :]
@@ -150,16 +161,16 @@ for i in range(0, 10):
 
         # just plot prediction corresponding to first target series
         for j in range(0,1):
-            pred = preds[:, 0]  # target series j
+            pred = preds[:, j]  # target series j
             handle, = plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], colors[k], linewidth=2.0)
             handles.append(handle)
             plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], colors[k] + ':',
                      linewidth=2.0)
     plt.legend(handles, legends)
     plt.show()
-    for k in np.arange(0, len(_models)):
+    for k in np.arange(0, len(models)):
         print("RMSE:{0}, MAE:{1}, NRMSE:{2}, ND:{3}".format(rmse[k][i], mae[k][i], nrmse[k][i], nd[k][i]))
 
-for k in np.arange(0, len(_models)):
+for k in np.arange(0, len(models)):
         print("RMSE:{0}, MAE:{1}, NRMSE:{2}, ND:{3}".format(np.mean(rmse[k]), np.mean(mae[k]), np.mean(nrmse[k]), np.mean(nd[k])))
 print('done')

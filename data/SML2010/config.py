@@ -19,4 +19,4 @@ simple_cfg = {
 }
 
 full_cfg = simple_cfg
-full_cfg['num_covariates'] = 3
+full_cfg['num_covariates'] =12

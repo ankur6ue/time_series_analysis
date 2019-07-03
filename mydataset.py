@@ -15,12 +15,6 @@ import matplotlib.pyplot as plt
 
 
 class MyDataset(Dataset):
-    def get_min_max_scale_params(self):
-        return self.min_max_scaler.data_min_[0], 1 / self.min_max_scaler.scale_[0]
-
-    def get_std_scale_params(self):
-        return self.std_scaler_target.mean_[0], self.std_scaler_target.scale_[0]
-
     def __len__(self):
         return self.dataset_size
 
@@ -39,7 +33,15 @@ class MyDataset(Dataset):
         return torch.squeeze(out, 0)
 
     def get_train_test_samplers(self, train_test_split):
-        # Creating data indices for training and test splits:
+        """
+        Create a list of inidces in the time series data and split the list into a training and test partition based on
+        the train_test_split ratio. Training and testing RandomSamplers are then created from these partitions which can
+        be used to sample batches during training and testing using the Sampler infrastructure provided by PyTorch
+
+        :param train_test_split: ratio of training samples and total number of samples. A value of 0.7 means 70% of the
+        time series samples will be used for training and the rest for testing
+        :return: Train and Test random samplers.
+        """
 
         indices = list(range(self.dataset_size))
         split = int(np.floor(train_test_split * self.dataset_size))
@@ -49,7 +51,8 @@ class MyDataset(Dataset):
         return SubsetRandomSampler(train_indices), SubsetRandomSampler(test_indices)
 
     def plot_corr(self, df, size=10):
-        """Function plots a graphical correlation matrix for each pair of columns in the dataframe.
+        """
+        Plots a graphical correlation matrix for each pair of columns in the dataframe.
         Input:
             df: pandas DataFrame
             size: vertical and horizontal size of the plot"""

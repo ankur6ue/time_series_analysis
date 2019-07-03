@@ -11,7 +11,7 @@ import numpy as np
 
 
 class NSDQ100Dataset(MyDataset):
-    """NSDQ100 dataset."""
+    """NSDQ100 dataset (http://cseweb.ucsd.edu/~yaq007/NASDAQ100_stock_data.html)."""
 
     def __init__(self, csv_file, dev, ctx_win_len, col_names, num_time_indx=1):
         """
@@ -28,7 +28,7 @@ class NSDQ100Dataset(MyDataset):
         self.dev = dev
 
         path = os.path.dirname(os.path.realpath(__file__))
-        df = read_csv(path + '\\..\\data\\NSDQ100\\' + csv_file, header=0, index_col=0)
+        df = read_csv(os.path.join(path, '..\\data\\NSDQ100', csv_file), header=0, index_col=0)
         # make the target columns the first columns in the dataframe
         cols = df.columns.tolist()
         for i in range(len(col_names)):

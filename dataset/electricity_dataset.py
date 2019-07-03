@@ -23,7 +23,7 @@ class ElectricityDataset(MyDataset):
         self.num_tim_indx = num_time_indx
         self.dev = dev
         path = os.path.dirname(os.path.realpath(__file__))
-        df = read_csv(path + '\\..\\data\\Electricity\\' + csv_file, header=0, index_col=0)
+        df = read_csv(os.path.join(path, '..\\data\\Electricity', csv_file), header=0, index_col=0)
 
         self.ctx_win_len = ctx_win_len
         values = df.values

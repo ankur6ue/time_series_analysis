@@ -1,4 +1,6 @@
-""" Implements simple time-series prediction using LSTMs
+"""
+Implements the direct model that predicts target time series values directly (see model_prob.py for the
+probabalistic model that predicts the parameters of the likelihood function instead)
 """
 # Import necessary libraries
 import torch 

@@ -5,7 +5,7 @@ import pandas
 from datetime import datetime
 import os
 from matplotlib import pyplot
-
+# dataset source: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
 path = os.path.dirname(os.path.realpath(__file__))
 def dateparse(x):
 	return datetime.strptime(x, '%Y-%m-%d %H:%M:%S')

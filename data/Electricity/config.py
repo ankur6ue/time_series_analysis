@@ -9,11 +9,11 @@ simple_cfg = {
     'total_num_covariates': 3,
     'num_time_idx': 1,
     'num_targets': 100,
-    'total_num_targets': 369,
+    'total_num_targets': 370,
     'num_lstms': 2,
     'hidden_dim': 64,
-    'max_batches_per_epoch': 400,
-    'num_epochs': 100,
+    'max_batches_per_epoch': 600,
+    'num_epochs': 40,
     'data_file': 'electricity.csv',
     'train_test_split': 0.7
 }

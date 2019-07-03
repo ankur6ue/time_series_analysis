@@ -25,7 +25,7 @@ class SML2010Dataset(MyDataset):
         self.num_tim_indx = num_time_indx
         self.dev = dev
         path = os.path.dirname(os.path.realpath(__file__))
-        df = read_csv(path + '\\..\\data\\SML2010\\' + csv_file, header=0, index_col=0)
+        df = read_csv(os.path.join(path, '..\\data\\SML2010', csv_file), header=0, index_col=0)
 
         self.ctx_win_len = ctx_win_len
         values = df.values
@@ -36,6 +36,8 @@ class SML2010Dataset(MyDataset):
         ## plot correlation matrix
         self.plot_corr(df)
 
+        # note: code below is commented out, because we do per batch normalization rather than normalizing the entire
+        # training data
         # normalize features
         # self.min_max_scaler = MinMaxScaler(feature_range=(0, 1))
         # self.scaled[:, 0:1] = self.min_max_scaler.fit_transform(values[:, 0:1])

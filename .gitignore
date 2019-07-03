@@ -3,4 +3,12 @@
 /data/*/*.txt
 /data/*/*.npy
 /data/Electricity/electricity.csv
+!/data/BeijingPM25/*
 *__pycache__*
+useful_code.txt
+figures/2d_regression.png
+figures/2d_std.png
+figures/results.png
+example1.png
+deepar_example.py
+example1.png

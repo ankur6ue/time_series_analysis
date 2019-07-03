@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1392db41-f02f-40b7-a760-c1188d588ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/dataloader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/pollution.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/pollution_load.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/pollution_preprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/time_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Electricity/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Electricity/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NSDQ100/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/NSDQ100/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/SML2010/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/SML2010/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Sinewave/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Sinewave/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SML2010_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SML2010_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/electricity_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/electricity_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/pollution_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/pollution_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/example1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example1/model1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2-b.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2-c.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2/model2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,54 +30,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
+        <entry file="file://$PROJECT_DIR$/models/model_prob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="3" />
               <folding>
-                <element signature="e#164#191#0" expanded="true" />
+                <element signature="e#90#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Sinewave/time_series.py">
+        <entry file="file://$PROJECT_DIR$/example1-prob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
+            <state relative-caret-position="255">
+              <caret line="60" selection-start-line="60" selection-end-line="63" selection-end-column="47" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
+        <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
+        <entry file="file://$PROJECT_DIR$/example1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="403">
+              <caret line="106" column="71" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="71" />
               <folding>
-                <element signature="e#164#191#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Anaconda3/Lib/site-packages/pandas/core/frame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="2668" selection-start-line="2668" selection-end-line="2668" />
             </state>
           </provider>
         </entry>
@@ -83,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+            <state relative-caret-position="313">
+              <caret line="175" selection-start-line="175" selection-end-line="175" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -93,17 +87,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example4/model4.py">
+        <entry file="file://$PROJECT_DIR$/utils/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-663" />
+            <state relative-caret-position="-204">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py">
+        <entry file="file://$PROJECT_DIR$/data/Electricity/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="187">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/NSDQ100/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
               <folding>
                 <element signature="e#105#132#0" expanded="true" />
               </folding>
@@ -112,10 +129,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
+        <entry file="file://$PROJECT_DIR$/models/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="34">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -138,6 +155,12 @@
       <find>devi</find>
       <find>model2</find>
       <find>target</find>
+      <find>var</find>
+      <find>costdiates</find>
+      <find>get_train_te</find>
+      <find>get_min_ma</find>
+      <find>models</find>
+      <find>_models</find>
     </findStrings>
     <replaceStrings>
       <replace>cond_ctx</replace>
@@ -152,6 +175,9 @@
       <replace>self.num_covariates</replace>
       <replace>model</replace>
       <replace>target_</replace>
+      <replace>std</replace>
+      <replace>covariates</replace>
+      <replace>models</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,10 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example1/__init__.py" />
-        <option value="$PROJECT_DIR$/example1/model1.py" />
-        <option value="$PROJECT_DIR$/example3/model3.py" />
-        <option value="$PROJECT_DIR$/example3.py" />
         <option value="$PROJECT_DIR$/example4/model4.py" />
         <option value="$PROJECT_DIR$/dataset/pollution_loader.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
@@ -195,27 +217,32 @@
         <option value="$PROJECT_DIR$/dataset/BeijingPM25/pollution_preprocess.py" />
         <option value="$PROJECT_DIR$/dataset/NSDQ100/NSDQ100_dataset.py" />
         <option value="$PROJECT_DIR$/data/Electricity/electricity_dataset.py" />
-        <option value="$PROJECT_DIR$/dataset/electricity_dataset.py" />
-        <option value="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" />
-        <option value="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" />
-        <option value="$PROJECT_DIR$/data/Electricity/config.py" />
-        <option value="$PROJECT_DIR$/data/NSDQ100/config.py" />
-        <option value="$PROJECT_DIR$/utils/utils.py" />
         <option value="$PROJECT_DIR$/dataset/SW_dataset.py" />
-        <option value="$PROJECT_DIR$/data/Sinewave/config.py" />
-        <option value="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" />
-        <option value="$PROJECT_DIR$/dataset/SML2010_dataset.py" />
-        <option value="$PROJECT_DIR$/data/SML2010/config.py" />
-        <option value="$PROJECT_DIR$/example1.py" />
         <option value="$PROJECT_DIR$/data/BeijingPM25/config.py" />
-        <option value="$PROJECT_DIR$/dataset/pollution_dataset.py" />
+        <option value="$PROJECT_DIR$/data/Sinewave/config.py" />
+        <option value="$PROJECT_DIR$/data/NSDQ100/config.py" />
+        <option value="$PROJECT_DIR$/data/SML2010/config.py" />
         <option value="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" />
+        <option value="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" />
+        <option value="$PROJECT_DIR$/data/Electricity/config.py" />
+        <option value="$PROJECT_DIR$/mydataset.py" />
+        <option value="$PROJECT_DIR$/dataset/SML2010_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/pollution_dataset.py" />
+        <option value="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" />
+        <option value="$PROJECT_DIR$/dataset/electricity_dataset.py" />
+        <option value="$PROJECT_DIR$/models/model_prob.py" />
+        <option value="$PROJECT_DIR$/models/model.py" />
+        <option value="$PROJECT_DIR$/example1-prob.py" />
+        <option value="$PROJECT_DIR$/example1.py" />
         <option value="$PROJECT_DIR$/prediction.py" />
+        <option value="$PROJECT_DIR$/utils/utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="33" />
+    <option name="y" value="4" />
     <option name="width" value="1870" />
     <option name="height" value="1043" />
   </component>
@@ -359,7 +386,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example1-prob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-pne" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,7 +398,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example1-prob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -424,18 +451,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.electricity_preprocess" />
-      <item itemvalue="Python.example1" />
       <item itemvalue="Python.pollution_preprocess" />
       <item itemvalue="Python.prediction" />
       <item itemvalue="Python.SML2010_preprocess" />
+      <item itemvalue="Python.example1-prob" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.prediction" />
+        <item itemvalue="Python.example1-prob" />
+        <item itemvalue="Python.pollution_preprocess" />
         <item itemvalue="Python.SML2010_preprocess" />
         <item itemvalue="Python.electricity_preprocess" />
-        <item itemvalue="Python.pollution_preprocess" />
-        <item itemvalue="Python.example1" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +480,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="0" width="1870" height="1043" extended-state="0" />
+    <frame x="33" y="4" width="1870" height="1043" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25818777" />
@@ -530,12 +557,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/example1.py</url>
-          <line>114</line>
+          <line>119</line>
           <option name="timeStamp" value="368" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/prediction.py</url>
-          <line>164</line>
+          <line>175</line>
           <option name="timeStamp" value="376" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -554,9 +581,14 @@
           <option name="timeStamp" value="384" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="385" />
+          <url>file://$PROJECT_DIR$/dataset/SW_dataset.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset/SML2010_dataset.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="432" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -576,139 +608,234 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>len(df)</expression-string>
+        <expression-string>test_dataloader_iter = iter(test_dataloader)
+rmse = []
+mae = []
+mape = []
+for i in range(0, 1):
+   test_batch = next(test_dataloader_iter)
+   with torch.no_grad():
+       input, target, covariates = utils.split_batch(test_batch)
+       input, covariates = utils.scale(input, covariates)
+       pred = model(input[:, 0:cond_win_len, :], covariates, future=pred_win_len)
+       pred = utils.invert_scale(pred, True)
+       loss = model.NLL(pred, target)
+       rmse.append(loss.item())
+       print(&quot;loss (prediction): {0}&quot;.format(loss))
+       preds = pred[0, :, :, :].detach().cpu().numpy()
+       targets = target[0, :, :].detach().cpu().numpy()
+   # plot the target series on a separate plot
+   for j in range(1):
+       pred = preds[:, j, 0]  # mean of predicted series j
+       std = preds[:, j, 1]  # std. dev of predicted series j
+       target = targets[:, j]
+       plt.figure()
+       plt.title(
+           'Red: Groundtruth, Green: Predicted values \n Dashlines: predicted values in the prediction window')
+       plt.xlabel('x')
+       plt.ylabel('y')
+       plt.xticks()
+       plt.yticks()
+       plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], 'g', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], 'g' + ':',
+                linewidth=2.0)
+       plt.fill_between(np.arange(len(target)), pred - std, pred + std, color='gray', alpha=0.5)
+       plt.fill_between(np.arange(len(target)), pred - 2 * std, pred + 2 * std, color='gray', alpha=0.2)
+       #plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(df.columns)</expression-string>
+        <expression-string>test_dataloader_iter = iter(test_dataloader)
+rmse = []
+mae = []
+mape = []
+for i in range(0, 1):
+   test_batch = next(test_dataloader_iter)
+   with torch.no_grad():
+       input, target, covariates = utils.split_batch(test_batch)
+       input, covariates = utils.scale(input, covariates)
+       pred = model(input[:, 0:cond_win_len, :], covariates, future=pred_win_len)
+       pred = utils.invert_scale(pred, True)
+       loss = model.NLL(pred, target)
+       rmse.append(loss.item())
+       print(&quot;loss (prediction): {0}&quot;.format(loss))
+       preds = pred[0, :, :, :].detach().cpu().numpy()
+       targets = target[0, :, :].detach().cpu().numpy()
+   # plot the target series on a separate plot
+   for j in range(10):
+       pred = preds[:, j, 0]  # mean of predicted series j
+       std = preds[:, j, 1]  # std. dev of predicted series j
+       target = targets[:, j]
+       plt.figure()
+       plt.title(
+           'Red: Groundtruth, Green: Predicted values \n Dashlines: predicted values in the prediction window')
+       plt.xlabel('x')
+       plt.ylabel('y')
+       plt.xticks()
+       plt.yticks()
+       plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], 'g', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], 'g' + ':',
+                linewidth=2.0)
+       plt.fill_between(np.arange(len(target)), pred - std, pred + std, color='gray', alpha=0.5)
+       plt.fill_between(np.arange(len(target)), pred - 2 * std, pred + 2 * std, color='gray', alpha=0.2)
+       #plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(dataset.columns)</expression-string>
+        <expression-string>tt = os.path.join(path, '..\\data\\SML2010' + csv_file)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values = df.values
-groups = [0, 1, 2, 3, 4, 5, 6, 7]
-i = 1
-# plot each column
-fig = pyplot.figure()
-for group in groups:
-    pyplot.subplot(len(groups), 1, i)
-    pyplot.plot(values[0::, group])
-    pyplot.title(df.columns[group], y=0.5, loc='right')
-    i += 1
-# for adjusting vertical spacing between subplots (hspace is for vertical spacing, go figure)
-fig.subplots_adjust(hspace=0.5)
-pyplot.show()</expression-string>
+        <expression-string>print(covariates[0, 1:10, :])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values = df.values
-groups = [0, 1, 2, 3, 4, 5, 6, 7]
-i = 1
-# plot each column
-fig = pyplot.figure()
-for group in groups:
-	pyplot.subplot(len(groups), 1, i)
-	pyplot.plot(values[0::, group])
-	pyplot.title(df.columns[group], y=0.5, loc='right')
-	i += 1
-# for adjusting vertical spacing between subplots (hspace is for vertical spacing, go figure)
-fig.subplots_adjust(hspace=0.5)
-pyplot.show()</expression-string>
+        <expression-string>print(covariates[0, 1:6, :])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(dataset)</expression-string>
+        <expression-string>test_dataloader_iter = iter(test_dataloader)
+rmse = []
+mae = []
+mape = []
+for i in range(0, 1):
+   test_batch = next(test_dataloader_iter)
+   with torch.no_grad():
+       input, target, covariates = utils.split_batch(test_batch)
+       input, covariates = utils.scale(input, covariates)
+       pred = model(input[:, 0:cond_win_len, :], covariates, future=pred_win_len)
+       pred = utils.invert_scale(pred, True)
+       loss = model.NLL(pred, target)
+       rmse.append(loss.item())
+       print(&quot;loss (prediction): {0}&quot;.format(loss))
+       preds = pred[0, :, :, :].detach().cpu().numpy()
+       targets = target[0, :, :].detach().cpu().numpy()
+   # plot the target series on a separate plot
+   for j in range(20):
+       pred = preds[:, j, 0]  # mean of predicted series j
+       std = preds[:, j, 1]  # std. dev of predicted series j
+       target = targets[:, j]
+       plt.figure()
+       plt.title(
+           'Red: Groundtruth, Green: Predicted values \n Dashlines: predicted values in the prediction window')
+       plt.xlabel('x')
+       plt.ylabel('y')
+       plt.xticks()
+       plt.yticks()
+       plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], 'g', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], 'g' + ':',
+                linewidth=2.0)
+       plt.fill_between(np.arange(len(target)), pred - std, pred + std, color='gray', alpha=0.5)
+       plt.fill_between(np.arange(len(target)), pred - 2 * std, pred + 2 * std, color='gray', alpha=0.2)
+       #plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(dataset.rows)</expression-string>
+        <expression-string>test_dataloader_iter = iter(test_dataloader)
+rmse = []
+mae = []
+mape = []
+for i in range(0, 1):
+   test_batch = next(test_dataloader_iter)
+   with torch.no_grad():
+       input, target, covariates = utils.split_batch(test_batch)
+       input, covariates = utils.scale(input, covariates)
+       pred = model(input[:, 0:cond_win_len, :], covariates, future=pred_win_len)
+       pred = utils.invert_scale(pred, True)
+       loss = model.NLL(pred, target)
+       rmse.append(loss.item())
+       print(&quot;loss (prediction): {0}&quot;.format(loss))
+       preds = pred[0, :, :, :].detach().cpu().numpy()
+       targets = target[0, :, :].detach().cpu().numpy()
+   # plot the target series on a separate plot
+   for j in range(num_targets):
+       pred = preds[:, j, 0]  # mean of predicted series j
+       std = preds[:, j, 1]  # std. dev of predicted series j
+       target = targets[:, j]
+       plt.figure()
+       plt.title(
+           'Red: Groundtruth, Green: Predicted values \n Dashlines: predicted values in the prediction window')
+       plt.xlabel('x')
+       plt.ylabel('y')
+       plt.xticks()
+       plt.yticks()
+       plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], 'g', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], 'g' + ':',
+                linewidth=2.0)
+       plt.fill_between(np.arange(len(target)), pred - std, pred + std, color='gray', alpha=0.5)
+       plt.fill_between(np.arange(len(target)), pred - 2 * std, pred + 2 * std, color='gray', alpha=0.2)
+       #plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>file_prefix = &quot;{0}\\model_covariates-{1}_epochs{2}&quot;.format(example, cfg['num_covariates'],
-                                                                       cfg['num_epochs'])
-save_model_(model, file_prefix)</expression-string>
+        <expression-string>plt.figure()
+plt.title('Loss progression')
+plt.xlabel('batch no')
+plt.ylabel('loss')
+plt.plot(np.arange(len(losses)), losses, 'g', linewidth=2.0)
+plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>plt.yticks(range(len(corr.columns)), corr.columns)
-ndx = corr['IDT']
-ndx_abs = ndx.abs()
-sum_corr_ndx = ndx_abs.sum()
-ndx_sorted = ndx.sort_values(ascending=False)
-fig = plt.subplots()
-ndx_sorted.plot()
-plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>predict(model)</expression-string>
+        <expression-string>test_dataloader_iter = iter(test_dataloader)
+rmse = []
+mae = []
+mape = []
+for i in range(0, 1):
+   test_batch = next(test_dataloader_iter)
+   with torch.no_grad():
+       input, target, covariates = utils.split_batch(test_batch)
+       #input, covariates = utils.scale(input, covariates)
+       pred = model(input[:, 0:cond_win_len, :], covariates, future=pred_win_len)
+       #pred = utils.invert_scale(pred, True)
+       loss = model.NLL(pred, target)
+       rmse.append(loss.item())
+       print(&quot;loss (prediction): {0}&quot;.format(loss))
+       preds = pred[0, :, :, :].detach().cpu().numpy()
+       targets = target[0, :, :].detach().cpu().numpy()
+   # plot the target series on a separate plot
+   for j in range(num_targets):
+       pred = preds[:, j, 0]  # mean of predicted series j
+       std = preds[:, j, 1]  # std. dev of predicted series j
+       target = targets[:, j]
+       plt.figure()
+       plt.title(
+           'Red: Groundtruth, Green: Predicted values \n Dashlines: predicted values in the prediction window')
+       plt.xlabel('x')
+       plt.ylabel('y')
+       plt.xticks()
+       plt.yticks()
+       plt.plot(np.arange(len(target)), target, 'r', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len), pred[0:cond_win_len], 'g', linewidth=2.0)
+       plt.plot(np.arange(cond_win_len, cond_win_len + pred_win_len), pred[cond_win_len:], 'g' + ':',
+                linewidth=2.0)
+       plt.fill_between(np.arange(len(target)), pred - std, pred + std, color='gray', alpha=0.5)
+       plt.fill_between(np.arange(len(target)), pred - 2 * std, pred + 2 * std, color='gray', alpha=0.2)
+       #plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example2/model2.py" />
-    <entry file="file://$PROJECT_DIR$/models/model2.py" />
-    <entry file="file://$PROJECT_DIR$/dataset/Sinewave/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example2-d.py" />
-    <entry file="file://$PROJECT_DIR$/dataset/Sinewave/SW_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="108" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="21" selection-end-column="108" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/BeijingPM25/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/dataloader.py" />
-    <entry file="file://$PROJECT_DIR$/dataset/SML2010/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/NSDQ100/nasdaq100_padding.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SML2010/config.py" />
     <entry file="file://$PROJECT_DIR$/data/NSDQ100/model_covariates-70_epochs10.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SML2010/SML2010_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SML2010/SML2010_dataset.py" />
     <entry file="file://$PROJECT_DIR$/dataset/NSDQ100/NSDQ100_dataset.py" />
     <entry file="file://C:/Anaconda3/Lib/site-packages/pandas/io/date_converters.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,26 +844,8 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SML2010/SML2010_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="85" />
-          <folding>
-            <element signature="e#105#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/BeijingPM25/pollution_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#105#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SML2010/SML2010_preprocess.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/BeijingPM25/pollution_preprocess.py" />
     <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_dataset.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,29 +858,6 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10625">
           <caret line="630" selection-start-line="630" selection-end-line="630" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/NSDQ100/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="490" selection-start-line="490" selection-end-line="490" />
         </state>
       </provider>
     </entry>
@@ -789,44 +875,11 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/BeijingPM25/pollution_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/BeijingPM25/pollution_dataset.py" />
     <entry file="file://C:/Anaconda3/Lib/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="1816" selection-start-line="1816" selection-end-line="1816" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/electricity_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="e#164#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Sinewave/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Electricity/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -840,30 +893,6 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/useful_code.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -871,10 +900,155 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/model.py">
+    <entry file="file://$PROJECT_DIR$/dataset/mydataset.py" />
+    <entry file="file://$PROJECT_DIR$/data/Sinewave/time_series.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43826">
+          <caret line="2668" selection-start-line="2668" selection-end-line="2668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example4/model4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="100" column="70" selection-start-line="99" selection-end-line="100" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/NSDQ100/nasdaq100_padding.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="510" selection-start-line="510" selection-end-line="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Sinewave/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="95" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="95" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/pollution_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#164#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="71" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="e#105#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" selection-start-line="7" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#105#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/electricity_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#164#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,126 +1059,109 @@ plt.xticks(range(len(ndx_sorted.index)), ndx_sorted.index, rotation='vertical')<
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mydataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/torch/optim/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/NSDQ100/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+          <folding>
+            <element signature="e#105#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Electricity/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_prob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#90#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example1-prob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="60" selection-start-line="60" selection-end-line="63" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        <state relative-caret-position="403">
+          <caret line="106" column="71" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="71" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/pollution_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="56" lean-forward="true" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding>
-            <element signature="e#164#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#105#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#105#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda3/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="2668" selection-start-line="2668" selection-end-line="2668" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/mydataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Sinewave/time_series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+        <state relative-caret-position="313">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example4/model4.py">
+    <entry file="file://$PROJECT_DIR$/utils/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663" />
+        <state relative-caret-position="-204">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

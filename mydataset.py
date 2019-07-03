@@ -24,11 +24,11 @@ class MyDataset(Dataset):
         # absolute time from the start of the time series
         abs_time = torch.from_numpy(np.arange(idx, idx + self.ctx_win_len) * self.resolution).unsqueeze(1).float().to(
             self.dev)
-        if (self.num_tim_indx == 2):  # use both relative time and absolute time (from the beginning of the series)
+        if (self.num_time_indx == 2):  # use both relative time and absolute time (from the beginning of the series)
             out = torch.cat((rel_time, abs_time, self.scaled[idx: idx + self.ctx_win_len, :]), -1).unsqueeze(0)
-        if (self.num_tim_indx == 1):  # relative time only
+        if (self.num_time_indx == 1):  # relative time only
             out = torch.cat((rel_time, self.scaled[idx: idx + self.ctx_win_len, :]), -1).unsqueeze(0)
-        if (self.num_tim_indx == 0):  # no time, only used for the SW example
+        if (self.num_time_indx == 0):  # no time, only used for the SW example
             out = self.scaled[idx: idx + self.ctx_win_len, :].unsqueeze(0)
         return torch.squeeze(out, 0)
 

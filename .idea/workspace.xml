@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1392db41-f02f-40b7-a760-c1188d588ea8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/SML2010/SML2010_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SML2010_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SML2010_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/SW_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/SW_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/electricity_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/electricity_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/pollution_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/pollution_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydataset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,24 +20,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/model_prob.py">
+        <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="89" />
               <folding>
-                <element signature="e#90#102#0" expanded="true" />
+                <element signature="e#105#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example1-prob.py">
+        <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#164#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/electricity_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="60" selection-start-line="60" selection-end-line="63" selection-end-column="47" />
+              <caret line="18" column="11" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="11" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#60#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="862">
               <caret line="106" column="71" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="71" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -51,77 +67,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prediction.py">
+        <entry file="file://$PROJECT_DIR$/mydataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="77">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#164#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-              <folding>
-                <element signature="e#105#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Electricity/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
+        <entry file="file://$PROJECT_DIR$/dataset/pollution_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#105#132#0" expanded="true" />
+                <element signature="e#164#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
+        <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
+            <state>
               <folding>
-                <element signature="e#105#132#0" expanded="true" />
+                <element signature="e#164#191#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/model.py">
+        <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#164#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-595">
+              <folding>
+                <element signature="e#105#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +155,7 @@
       <find>get_train_te</find>
       <find>get_min_ma</find>
       <find>models</find>
+      <find>num_tim_indx</find>
       <find>_models</find>
     </findStrings>
     <replaceStrings>
@@ -166,6 +173,7 @@
       <replace>target_</replace>
       <replace>std</replace>
       <replace>covariates</replace>
+      <replace>num_time_indx</replace>
       <replace>models</replace>
     </replaceStrings>
   </component>
@@ -175,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example4/model4.py" />
         <option value="$PROJECT_DIR$/dataset/pollution_loader.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/example2-b.py" />
@@ -206,17 +213,11 @@
         <option value="$PROJECT_DIR$/dataset/BeijingPM25/pollution_preprocess.py" />
         <option value="$PROJECT_DIR$/dataset/NSDQ100/NSDQ100_dataset.py" />
         <option value="$PROJECT_DIR$/data/Electricity/electricity_dataset.py" />
-        <option value="$PROJECT_DIR$/dataset/SW_dataset.py" />
         <option value="$PROJECT_DIR$/data/BeijingPM25/config.py" />
         <option value="$PROJECT_DIR$/data/Sinewave/config.py" />
         <option value="$PROJECT_DIR$/data/NSDQ100/config.py" />
         <option value="$PROJECT_DIR$/data/SML2010/config.py" />
         <option value="$PROJECT_DIR$/data/Electricity/config.py" />
-        <option value="$PROJECT_DIR$/mydataset.py" />
-        <option value="$PROJECT_DIR$/dataset/SML2010_dataset.py" />
-        <option value="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" />
-        <option value="$PROJECT_DIR$/dataset/pollution_dataset.py" />
-        <option value="$PROJECT_DIR$/dataset/electricity_dataset.py" />
         <option value="$PROJECT_DIR$/models/model_prob.py" />
         <option value="$PROJECT_DIR$/models/model.py" />
         <option value="$PROJECT_DIR$/example1-prob.py" />
@@ -226,6 +227,13 @@
         <option value="$PROJECT_DIR$/data/BeijingPM25/pollution_preprocess.py" />
         <option value="$PROJECT_DIR$/data/Electricity/electricity_preprocess.py" />
         <option value="$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py" />
+        <option value="$PROJECT_DIR$/mydataset.py" />
+        <option value="$PROJECT_DIR$/dataset/electricity_dataset.py" />
+        <option value="$PROJECT_DIR$/data/SML2010/SML2010_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/NSDQ100_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/pollution_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/SML2010_dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/SW_dataset.py" />
       </list>
     </option>
   </component>
@@ -571,12 +579,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataset/SW_dataset.py</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="431" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataset/SML2010_dataset.py</url>
-          <line>27</line>
+          <line>26</line>
           <option name="timeStamp" value="432" />
         </line-breakpoint>
       </breakpoints>
@@ -964,63 +972,6 @@ for i in range(0, 1):
     <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="95" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="95" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/pollution_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding>
-            <element signature="e#164#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="30" column="71" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="71" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/electricity_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#164#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/BeijingPM25/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1028,27 +979,10 @@ for i in range(0, 1):
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#164#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/Lib/site-packages/torch/optim/optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="159" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1093,16 +1027,6 @@ for i in range(0, 1):
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="106" column="71" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -1133,20 +1057,98 @@ for i in range(0, 1):
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
+    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-595">
           <folding>
             <element signature="e#105#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_preprocess.py">
+    <entry file="file://$PROJECT_DIR$/data/Electricity/electricity_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="89" />
           <folding>
             <element signature="e#105#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SML2010/SML2010_dataset.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/electricity_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#60#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/NSDQ100_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/pollution_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#164#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SW_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="106" column="71" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/SML2010_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#164#191#0" expanded="true" />
           </folding>
         </state>
       </provider>

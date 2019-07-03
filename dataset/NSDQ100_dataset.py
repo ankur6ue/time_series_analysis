@@ -1,4 +1,3 @@
-# code taken from: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 # References: DeepAR (https://arxiv.org/pdf/1704.04110.pdf)
 from pandas import read_csv
 import os
@@ -15,16 +14,15 @@ class NSDQ100Dataset(MyDataset):
 
     def __init__(self, csv_file, dev, ctx_win_len, col_names, num_time_indx=1):
         """
-        Loads the NSDQ100 dataset so samples can be drawn from it during training and testing
-        :param csv_file: file name of the csv file containing the data
-        :param dev: device (CPU/GPU). Output of torch.device
-        :param ctx_win_len: length of the context window (conditioning + prediction window)
-        :param col_names: stock ticker symbols of the stocks we want to forecast. eg: ['NDX', 'ALXN']
-        :param num_time_indx: number of time indices. Usually a relative time index wrt to the start of a batch,
-        but can also include absolute time index from the beginning of the series (age). If the age is included,
-        num_time_indx = 2, otherwise 1
+        Reads the dataset file, performs some data visualization (plotting cross-correlation heatmaps) and transfers
+        loaded data to the device (CPU/CUDA)
+        :param csv_file: csv filename containing preprocessed data.
+        :param dev: cpu or cuda, output of torch.device
+        :param ctx_win_len: context window length (conditioning + prediction window)
+        used by parent MyDataset class to read chunks out of the loaded data during batch generation
+        :param num_time_indx: 1 if only relative age is used, 2 if both absolute age and relative age are used
         """
-        self.num_tim_indx = num_time_indx
+        self.num_time_indx = num_time_indx
         self.dev = dev
 
         path = os.path.dirname(os.path.realpath(__file__))
@@ -39,8 +37,6 @@ class NSDQ100Dataset(MyDataset):
             if (idx is not None):  # rearrange columns so col corresponding to idx is in the beginning
                 cols = cols[idx:idx+1] + cols[:idx] + cols[idx+1:]
         df = df[cols]
-
-
         ## plot correlation matrix
         self.plot_corr(df[cols[0:70]])
 
@@ -64,15 +60,6 @@ class NSDQ100Dataset(MyDataset):
         # ensure all data is float
         values = values.astype('float32')
         self.scaled = values
-        # normalize features
-        #self.min_max_scaler = MinMaxScaler(feature_range=(0, 1))
-        #self.std_scaler_target = StandardScaler()
-        #self.scaled[:, 0:1] = self.std_scaler_target.fit_transform(values[:, 0:1])
-
-        # scale all covariates to be 0 mean, 1 variance (see section 3.4 of deepAR paper)
-        #self.std_scalar = StandardScaler()
-        #self.scaled[:, 1:] = self.std_scalar.fit_transform(self.scaled[:, 1:])
-
         self.dataset_size = self.scaled.shape[0]
         self.scaled = torch.from_numpy(self.scaled).float().to(dev)
         # time series resolution

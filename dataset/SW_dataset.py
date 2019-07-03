@@ -1,4 +1,3 @@
-# code taken from: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 # References: DeepAR (https://arxiv.org/pdf/1704.04110.pdf)
 from pandas import read_csv
 import os
@@ -25,7 +24,7 @@ class SWDataset(MyDataset):
         :param resolution: resolution of the modulated SW
         """
 
-        self.num_tim_indx = num_time_indx
+        self.num_time_indx = num_time_indx
         self.dev = dev
 
         self.t_min = t_min

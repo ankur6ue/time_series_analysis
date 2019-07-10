@@ -1,4 +1,3 @@
-# code taken from: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 # References: DeepAR (https://arxiv.org/pdf/1704.04110.pdf)
 from pandas import read_csv
 from datetime import datetime
